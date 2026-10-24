@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <>
-      <Header name="Prince Patel" themeColor="#38bdf8" />
+      <Header name="Het Patel" themeColor="#38bdf8" />
       <About course="Computer Science Engineering" />
       <Skills skillList={skills} />
     </>
