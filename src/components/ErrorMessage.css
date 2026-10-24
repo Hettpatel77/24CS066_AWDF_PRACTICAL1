@@ -1,0 +1,31 @@
+.error-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: #fff1f2;
+  border: 1px solid #fca5a5;
+  border-radius: 8px;
+  color: #b91c1c;
+  text-align: left;
+}
+
+.error-message p {
+  margin: 0;
+}
+
+.retry-button {
+  background: #b91c1c;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.retry-button:hover {
+  background: #991b1b;
+}
